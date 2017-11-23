@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import common.Helper;
 import parent.Base;
 
 public class Product_Information extends Base {
@@ -146,6 +147,7 @@ public class Product_Information extends Base {
 			publish_And_OnFeatured(features);
 			Thread.sleep(3000);
 			fillProductPricing();
+			Helper.takeScreenshot(driver, "FillProductInformation");
 			save_Button.click();
 			explicitWait(driver, 20, By.cssSelector(".admin-ui-menu>div:nth-child(2)>ul>li:nth-child(2)>a"));
 			products.click();

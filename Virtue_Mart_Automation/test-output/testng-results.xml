@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Virtue_Mart_Regression" duration-ms="98464" started-at="2017-11-22T05:21:47Z" finished-at="2017-11-22T05:23:25Z">
+  <suite name="Virtue_Mart_Regression" duration-ms="84448" started-at="2017-11-23T09:36:45Z" finished-at="2017-11-23T09:38:09Z">
     <groups>
     </groups>
-    <test name="Add_New_Product" duration-ms="74804" started-at="2017-11-22T05:21:47Z" finished-at="2017-11-22T05:23:02Z">
+    <test name="Add_New_Product" duration-ms="52318" started-at="2017-11-23T09:36:45Z" finished-at="2017-11-23T09:37:37Z">
       <class name="TestNG_Test_Cases.VIrtue_Mart_Search_Product">
-        <test-method status="PASS" signature="startUP(java.lang.String)[pri:0, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="startUP" is-config="true" duration-ms="29200" started-at="2017-11-22T10:51:47Z" finished-at="2017-11-22T10:52:16Z">
+        <test-method status="PASS" signature="startUP(java.lang.String)[pri:0, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="startUP" is-config="true" duration-ms="24964" started-at="2017-11-23T15:06:45Z" finished-at="2017-11-23T15:07:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUP -->
-        <test-method status="PASS" signature="New_Product_Information()[pri:1, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="New_Product_Information" duration-ms="44792" started-at="2017-11-22T10:52:16Z" finished-at="2017-11-22T10:53:01Z">
+        <test-method status="PASS" signature="New_Product_Information()[pri:1, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="New_Product_Information" duration-ms="26004" started-at="2017-11-23T15:07:10Z" finished-at="2017-11-23T15:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- New_Product_Information -->
-        <test-method status="PASS" signature="selectAndAddProductIntoCart()[pri:0, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="selectAndAddProductIntoCart" is-config="true" duration-ms="742" started-at="2017-11-22T10:53:01Z" finished-at="2017-11-22T10:53:02Z">
+        <test-method status="PASS" signature="selectAndAddProductIntoCart()[pri:0, instance:TestNG_Test_Cases.VIrtue_Mart_Search_Product@5c3bd550]" name="selectAndAddProductIntoCart" is-config="true" duration-ms="1317" started-at="2017-11-23T15:07:36Z" finished-at="2017-11-23T15:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAndAddProductIntoCart -->
       </class> <!-- TestNG_Test_Cases.VIrtue_Mart_Search_Product -->
     </test> <!-- Add_New_Product -->
-    <test name="Add_New_Product_Category" duration-ms="23456" started-at="2017-11-22T05:23:02Z" finished-at="2017-11-22T05:23:25Z">
+    <test name="Add_New_Product_Category" duration-ms="32088" started-at="2017-11-23T09:37:37Z" finished-at="2017-11-23T09:38:09Z">
       <class name="TestNG_Test_Cases.AddNewProductCategory">
-        <test-method status="PASS" signature="startUP(java.lang.String)[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="startUP" is-config="true" duration-ms="19198" started-at="2017-11-22T10:53:02Z" finished-at="2017-11-22T10:53:21Z">
+        <test-method status="PASS" signature="startUP(java.lang.String)[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="startUP" is-config="true" duration-ms="27502" started-at="2017-11-23T15:07:37Z" finished-at="2017-11-23T15:08:05Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUP -->
-        <test-method status="PASS" signature="add_New_Product_Category()[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="add_New_Product_Category" duration-ms="3250" started-at="2017-11-22T10:53:21Z" finished-at="2017-11-22T10:53:24Z">
+        <test-method status="PASS" signature="add_New_Product_Category()[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="add_New_Product_Category" duration-ms="3383" started-at="2017-11-23T15:08:05Z" finished-at="2017-11-23T15:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_New_Product_Category -->
-        <test-method status="PASS" signature="selectAndAddProductIntoCart()[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="selectAndAddProductIntoCart" is-config="true" duration-ms="1003" started-at="2017-11-22T10:53:24Z" finished-at="2017-11-22T10:53:25Z">
+        <test-method status="PASS" signature="selectAndAddProductIntoCart()[pri:0, instance:TestNG_Test_Cases.AddNewProductCategory@31ef45e3]" name="selectAndAddProductIntoCart" is-config="true" duration-ms="1200" started-at="2017-11-23T15:08:08Z" finished-at="2017-11-23T15:08:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAndAddProductIntoCart -->

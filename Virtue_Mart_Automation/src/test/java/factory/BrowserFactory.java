@@ -29,7 +29,7 @@ public class BrowserFactory {
 
 	public static void openApplication() {
 		System.out.println("Value of WenDriver " + driver);
-		driver.get("http://demo.virtuemart.net/administrator/index.php");
+		driver.get("http://demo.virtuemart.net/administrator");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

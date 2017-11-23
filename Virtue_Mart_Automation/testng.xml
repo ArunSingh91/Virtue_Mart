@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Virtue_Mart_Regression" verbose="1" >
   <test name="Add_New_Product">
-  <parameter name="browsername" value="ie"/>
+  <parameter name="browsername" value="firefox"/>
     <classes>
       <class  name="TestNG_Test_Cases.VIrtue_Mart_Search_Product" />
    </classes>
