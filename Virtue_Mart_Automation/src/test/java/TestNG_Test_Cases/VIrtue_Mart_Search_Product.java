@@ -11,8 +11,9 @@ public class VIrtue_Mart_Search_Product extends Base
 	@Test(priority = 1, enabled = true)
 	public void New_Product_Information()
 	{
+		logger.debug("***************** Start Test New_Product_Information *********************");
 		explicitWait(driver, 20, By.cssSelector(".admin-content>form>div>div:nth-child(2)>fieldset:nth-child(1)>legend"));
 		Product_Information product_info = PageFactory.initElements(driver, Product_Information.class);
-		product_info.FillProductInformation();		
+		product_info.FillProductInformation(logger);		
 	}
 }

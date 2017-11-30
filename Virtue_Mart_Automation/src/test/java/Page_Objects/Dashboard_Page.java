@@ -33,7 +33,8 @@ public class Dashboard_Page extends Base {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		for (WebElement Category : Virtue_Mart_Categories) {
 			if (Category.getText().equals("Products")) {

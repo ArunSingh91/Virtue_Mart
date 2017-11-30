@@ -1,6 +1,8 @@
 package Page_Objects;
 
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +16,7 @@ import parent.Base;
 
 public class Product_Information extends Base {
 	WebDriver driver;
+	Logger logger;
 	String features[] = {"published", "product_special"};
 
 	public Product_Information(WebDriver driver) {
@@ -56,6 +59,7 @@ public class Product_Information extends Base {
 	private WebElement products;
 
 	private void selectManufacturer(String Manufacturer_Name) {
+		logger.info("inside selectManufacturer method");
 		Manufacturer_Locator.click();
 		try {
 			Thread.sleep(3000);
@@ -136,9 +140,11 @@ public class Product_Information extends Base {
 		}
 	}
 
-	public void FillProductInformation() {
+	public void FillProductInformation(Logger logger) {
 		try {
-			System.out.println("Inside FillProductInformation method");
+			//System.out.println("Inside FillProductInformation method");
+			this.logger = logger;
+			logger.info("Inside FillProductInformation method");
 			Product_Name.sendKeys("Test_Product");
 			Product_SKU.sendKeys("TP_101");
 			selectManufacturer("Producer");

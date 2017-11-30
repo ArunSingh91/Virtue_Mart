@@ -1,5 +1,7 @@
 package parent;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,11 +16,14 @@ import factory.BrowserFactory;
 
 public class Base {
 	public WebDriver driver;
-
+	public Logger logger;
 	@Parameters({ "browsername" })
 	@BeforeTest
 	public void startUP(String browser) {
-		System.out.println("Inside startUP method");
+		logger = Logger.getLogger(Logger.class.getName());
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\Data_Provider\\Config_Data_Provider\\Log4j.properties");
+		//System.out.println("Inside startUP method");
+		logger.info("Inside startUP method");
 		this.driver = BrowserFactory.driverInitialization(browser);
 		BrowserFactory.openApplication();
 		WebDriverWait wait = new WebDriverWait(driver,30);

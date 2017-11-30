@@ -8,6 +8,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.gargoylesoftware.htmlunit.javascript.host.Element;
+
 public class Helper 
 {
 	public static void javaScriptClick(WebDriver driver, WebElement element)
@@ -25,5 +27,10 @@ public class Helper
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
+	}
+	
+	public static void uploadFile(WebElement element, String FilePath)
+	{
+		element.sendKeys(System.getProperty("user.dir")+ FilePath);
 	}
 }
