@@ -8,8 +8,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.gargoylesoftware.htmlunit.javascript.host.Element;
-
 public class Helper 
 {
 	public static void javaScriptClick(WebDriver driver, WebElement element)
