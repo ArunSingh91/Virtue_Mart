@@ -17,6 +17,7 @@ import factory.BrowserFactory;
 public class Base {
 	public WebDriver driver;
 	public Logger logger;
+
 	@Parameters({ "browsername" })
 	@BeforeTest
 	public void startUP(String browser) {

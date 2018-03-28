@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
 import common.Helper;
 import parent.Base;
@@ -20,9 +19,7 @@ public class Product_Information extends Base {
 	String features[] = {"published", "product_special"};
 
 	public Product_Information(WebDriver driver) {
-		// TODO Auto-generated constructor stub
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		System.out.println("driver in constructor "+driver);
 	}
 
 	@FindBy(how = How.CSS, using = "#product_name")

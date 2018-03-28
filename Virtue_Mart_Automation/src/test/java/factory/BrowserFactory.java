@@ -28,7 +28,7 @@ public class BrowserFactory {
 	}
 
 	public static void openApplication() {
-		System.out.println("Value of WenDriver " + driver);
+		System.out.println("Value of WebDriver " + driver);
 		driver.get("http://demo.virtuemart.net/administrator");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
