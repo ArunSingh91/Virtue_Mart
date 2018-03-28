@@ -20,6 +20,7 @@ public class Product_Information extends Base {
 
 	public Product_Information(WebDriver driver) {
 		System.out.println("driver in constructor "+driver);
+		this.driver=driver;
 	}
 
 	@FindBy(how = How.CSS, using = "#product_name")

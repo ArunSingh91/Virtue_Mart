@@ -1,0 +1,26 @@
+2018-03-27 13:10:11,350 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-27 13:10:52,113 [main] INFO org.apache.log4j.Logger - Inside FillProductInformation method
+2018-03-27 13:10:52,217 [main] INFO org.apache.log4j.Logger - inside selectManufacturer method
+2018-03-27 13:51:51,397 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-27 13:53:51,505 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-27 16:07:19,147 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-27 16:07:52,318 [main] INFO org.apache.log4j.Logger - Inside FillProductInformation method
+2018-03-27 16:07:52,438 [main] INFO org.apache.log4j.Logger - inside selectManufacturer method
+2018-03-27 16:08:03,407 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 16:31:17,567 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 16:32:00,455 [main] INFO org.apache.log4j.Logger - Inside FillProductInformation method
+2018-03-28 16:32:00,554 [main] INFO org.apache.log4j.Logger - inside selectManufacturer method
+2018-03-28 16:32:28,223 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 16:48:03,821 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 16:48:56,187 [main] INFO org.apache.log4j.Logger - Inside FillProductInformation method
+2018-03-28 16:48:56,309 [main] INFO org.apache.log4j.Logger - inside selectManufacturer method
+2018-03-28 16:49:24,406 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 16:49:42,890 [main] INFO org.apache.log4j.Logger - ***************** Starting Test add_New_Product_Category *************************
+2018-03-28 17:40:48,367 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 17:41:18,891 [main] INFO org.apache.log4j.Logger - Inside FillProductInformation method
+2018-03-28 17:41:18,996 [main] INFO org.apache.log4j.Logger - inside selectManufacturer method
+2018-03-28 17:41:45,751 [main] INFO org.apache.log4j.Logger - Inside startUP method
+2018-03-28 17:42:06,172 [main] INFO org.apache.log4j.Logger - ***************** Starting Test add_New_Product_Category *************************
+2018-03-28 17:42:10,711 [main] INFO org.apache.log4j.Logger - Screenshot Captured
+2018-03-28 17:42:15,815 [main] INFO org.apache.log4j.Logger - Radio BUtton is selected
+2018-03-28 17:42:16,589 [main] INFO org.apache.log4j.Logger - File Uploaded successfully!!

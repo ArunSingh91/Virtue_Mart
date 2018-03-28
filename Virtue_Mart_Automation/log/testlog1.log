@@ -1,0 +1,26 @@
+2018-03-27 13:10:11,350 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-27 13:10:52,113 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-27 13:10:52,217 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-27 13:51:51,397 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-27 13:53:51,505 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-27 16:07:19,147 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-27 16:07:52,318 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-27 16:07:52,438 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-27 16:08:03,407 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 16:31:17,567 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 16:32:00,455 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-28 16:32:00,554 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-28 16:32:28,223 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 16:48:03,821 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 16:48:56,187 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-28 16:48:56,309 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-28 16:49:24,406 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 16:49:42,890 - org.apache.log4j.Logger -INFO - ***************** Starting Test add_New_Product_Category *************************
+2018-03-28 17:40:48,367 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 17:41:18,891 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-28 17:41:18,996 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-28 17:41:45,751 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-28 17:42:06,172 - org.apache.log4j.Logger -INFO - ***************** Starting Test add_New_Product_Category *************************
+2018-03-28 17:42:10,711 - org.apache.log4j.Logger -INFO - Screenshot Captured
+2018-03-28 17:42:15,815 - org.apache.log4j.Logger -INFO - Radio BUtton is selected
+2018-03-28 17:42:16,589 - org.apache.log4j.Logger -INFO - File Uploaded successfully!!
