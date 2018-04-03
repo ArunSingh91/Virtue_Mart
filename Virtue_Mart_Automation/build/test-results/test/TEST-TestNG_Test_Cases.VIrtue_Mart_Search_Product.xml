@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG_Test_Cases.VIrtue_Mart_Search_Product" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-29T10:29:16" hostname="360NDCLP103" time="25.779">
+  <properties/>
+  <testcase name="New_Product_Information" classname="TestNG_Test_Cases.VIrtue_Mart_Search_Product" time="25.779"/>
+  <system-out><![CDATA[driver in constructor FirefoxDriver: firefox on XP (8dbc8441-047e-4551-983b-5d5e801d2e67)
+ INFO [Test worker] (Product_Information.java:145)- Inside FillProductInformation method
+ INFO [Test worker] (Product_Information.java:60)- inside selectManufacturer method
+List is 4
+Manufacturer is Default
+Manufacturer is iStraxx
+Manufacturer is Manufacturer
+Manufacturer is Producer
+Product category is Select Product Category
+Product category is Product attributes
+feature is published
+Array value is published
+published checkbox is already selected
+feature is published
+feature is product_special
+Array value is product_special
+product_special Checkbox selected
+]]></system-out>
+  <system-err><![CDATA[1522319371874	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+]]></system-err>
+</testsuite>

@@ -24,3 +24,13 @@
 2018-03-28 17:42:10,711 - org.apache.log4j.Logger -INFO - Screenshot Captured
 2018-03-28 17:42:15,815 - org.apache.log4j.Logger -INFO - Radio BUtton is selected
 2018-03-28 17:42:16,589 - org.apache.log4j.Logger -INFO - File Uploaded successfully!!
+2018-03-29 15:58:36,965 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-29 15:59:16,953 - org.apache.log4j.Logger -INFO - Inside FillProductInformation method
+2018-03-29 15:59:17,050 - org.apache.log4j.Logger -INFO - inside selectManufacturer method
+2018-03-29 15:59:44,691 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-29 16:00:08,967 - org.apache.log4j.Logger -INFO - ***************** Starting Test add_New_Product_Category *************************
+2018-03-29 16:00:12,636 - org.apache.log4j.Logger -INFO - Screenshot Captured
+2018-03-29 16:00:17,746 - org.apache.log4j.Logger -INFO - Radio BUtton is selected
+2018-03-29 16:00:18,246 - org.apache.log4j.Logger -INFO - File Uploaded successfully!!
+2018-03-29 16:16:46,005 - org.apache.log4j.Logger -INFO - Inside startUP method
+2018-03-29 16:17:20,016 - org.apache.log4j.Logger -INFO - Inside startUP method

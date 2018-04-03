@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG_Test_Cases.AddNewProductCategory" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-29T10:30:08" hostname="360NDCLP103" time="9.279">
+  <properties/>
+  <testcase name="add_New_Product_Category" classname="TestNG_Test_Cases.AddNewProductCategory" time="9.279"/>
+  <system-out><![CDATA[ INFO [Test worker] (AddNewProductCategory.java:14)- ***************** Starting Test add_New_Product_Category *************************
+ INFO [Test worker] (Product_Category_Page.java:53)- Screenshot Captured
+ INFO [Test worker] (Product_Category_Page.java:63)- Radio BUtton is selected
+ INFO [Test worker] (Product_Category_Page.java:65)- File Uploaded successfully!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
